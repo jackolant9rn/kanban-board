@@ -1,0 +1,162 @@
+.list {
+  width: 23%;
+  height: fit-content;
+  max-height: 600px;
+  margin: 20px 15px;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: rgba(235, 236, 240, 1);
+}
+
+.list h2 {
+  margin: 12px;
+  padding: 5px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+}
+  
+.list p {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+  
+.tasks {
+  display: block;
+  overflow-y: auto;
+  max-height: 450px;
+}
+  
+.tasks_item {
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+  
+.button_block {
+  margin: 20px 12px 12px 12px;
+  text-align: left;
+}
+  
+.add_card_button {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  appearance: none;
+}
+  
+.add_card_button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+  
+.disabled_button {
+  padding: 5px;
+  color: rgb(136, 136, 136);
+  text-align: left;
+  font-size: 18px; 
+  border-radius: 5px;
+  border: none;
+  background: none;  
+  appearance: none;
+}
+  
+.task_link {
+  text-decoration: none;
+  color: black;
+}
+  
+.task_link:hover {
+  text-decoration: underline;
+}
+  
+@media screen and (max-width: 788px) {
+    .list p {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+    .add_card_button {
+      padding: 3px;
+      font-size: 14px;
+    }
+  
+    .disabled_button {
+      font-size: 14px;
+    }
+}
+  
+@media screen and (max-width: 644px) {
+    .list p {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  
+    .add_card_button {
+      padding: 2px;
+      font-size: 12px;
+    }
+  
+    .disabled_button {
+      font-size: 12px;
+    }
+}
+  
+@media screen and (max-width: 565px) {
+    .list p {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  
+    .add_card_button {
+      padding: 1px;
+      font-size: 10px;
+    }
+  
+    .disabled_button {
+      font-size: 10px;
+    }
+  
+    .button_block {
+      margin: 10px 6px 6px 6px;
+    }
+}
+  
+@media screen and (max-width: 494px) {
+    .list {
+      background-color: rgba(235, 236, 240, 1);
+      width: 80%;
+      padding: 2px;
+      margin: 20px 15px;
+      border-radius: 10px;
+    }
+  
+    .list p {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  
+    .add_card_button {
+      font-size: 18px;
+      padding: 5px;
+    }
+  
+    .disabled_button {
+      font-size: 18px;
+    }
+  
+    .button_block {
+      margin: 20px 8px 8px 8px;
+    }
+}

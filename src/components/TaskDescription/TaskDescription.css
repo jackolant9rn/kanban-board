@@ -1,0 +1,127 @@
+.wrapper {
+  min-height: 80vh;
+  margin: 0 20px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+.desc_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc_header a {
+  height: 50px;
+}
+
+.desc_title {
+  padding: 20px 30px;
+}
+
+.close_button {
+  width: 23px;
+  height: 23px;
+  margin: 20px;
+  background: none;
+  border: none;
+  appearance: none;
+}
+
+.close_button:hover {
+  cursor: pointer;
+}
+
+.desc_text {
+  width: 70%;
+  text-align: left;
+  margin: 10px 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.edit_desc {
+  display: flex;
+  width: 70%;
+  height: 300px;
+  margin: 10px 30px;
+  padding: 0;
+  text-align: start;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.desc_form {
+  display: block;
+  background-color: white;
+}
+
+.open_form_btn {
+  margin: 30px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgba(0, 121, 191, 1);
+  background-color: rgba(0, 121, 191, 1);
+}
+
+.btn_wrapper {
+  margin: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.form_btn {
+  margin-left: 0;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgba(0, 121, 191, 1);
+  background-color: rgba(0, 121, 191, 1);
+}
+
+.form_btn_cancel {
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgba(235, 236, 240, 0.5);
+  background-color: rgba(235, 236, 240, 0.5);
+}
+
+@media screen and (max-width: 494px) {
+  .open_form_btn {
+    font-size: 16px;
+  }
+
+  .close_button {
+    width: 16px;
+    height: 16px;
+    margin: 20px;
+  }
+
+  .wrapper {
+    margin: 10px;
+  }
+}

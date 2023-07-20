@@ -1,0 +1,49 @@
+.form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    border-radius: 5px;
+}
+  
+.selection {
+    width: 100%;
+    margin: 8px 0px;
+    padding: 7px 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+  
+.selection option {
+    border-radius: 5px;
+}
+
+.submit_btn {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgba(0, 121, 191, 1);
+    background-color: rgba(0, 121, 191, 1);
+}
+  
+.cancel_btn {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgba(201, 201, 201, 0.5);
+    background-color: rgba(235, 236, 240, 0.5);
+}

@@ -1,0 +1,39 @@
+.form {
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+  
+.form input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.form input:focus {
+  border-bottom: none;
+}
+  
+.submit {
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border-color: rgba(0, 121, 191, 1);
+  background-color: rgba(0, 121, 191, 1);
+}
+  
+.btnBlock {
+  margin: 20px 12px 12px 12px;
+  text-align: left;
+}
